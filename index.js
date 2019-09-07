@@ -22,7 +22,6 @@ app.get("/", (req, res) => {
 app.post("/", (req, res) => {
   let city = req.body.city;
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${api_key}`;
-  console.log(api_key);
   console.log(req.body.city);
   request(url, (err, response, body) => {
     if (err) {
