@@ -1,0 +1,26 @@
+{
+  "name": "weather-app-new",
+  "version": "1.0.0",
+  "description": "Weather app based on express js, and open weather",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "weather",
+    "nodejs",
+    "express",
+    "open",
+    "weather"
+  ],
+  "author": "Sree Sai Raghava",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.0"
+  }
+}
